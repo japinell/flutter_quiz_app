@@ -1,5 +1,5 @@
 import "package:flutter/material.dart";
-import "package:flutter_quiz_app/StartScreen.dart";
+import "package:flutter_quiz_app/start_screen.dart";
 
 void main() => runApp(const QuizApp());
 
