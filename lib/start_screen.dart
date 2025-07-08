@@ -9,7 +9,12 @@ class StartScreen extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Image.asset("assets/images/quiz-logo.png", width: 300, height: 300),
+          Image.asset(
+            "assets/images/quiz-logo.png",
+            width: 300,
+            height: 300,
+            color: const Color.fromARGB(150, 255, 255, 255),
+          ),
           SizedBox(height: 50),
           Text(
             "Flutter Quiz App",
