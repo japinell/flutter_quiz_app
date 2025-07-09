@@ -11,6 +11,6 @@ class QuestionsScreen extends StatefulWidget {
 
 class _QuestionsScreenState extends State<QuestionsScreen> {
   build(BuildContext context) {
-    return Text("Questions Screen!s");
+    return Text("Questions Screens");
   }
 }
