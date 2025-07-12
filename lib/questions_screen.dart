@@ -16,7 +16,10 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text("The question goes here..."),
+          Text(
+            "The question goes here...",
+            style: TextStyle(color: Colors.white),
+          ),
           SizedBox(height: 30),
           ElevatedButton(onPressed: () {}, child: Text("Answer 1")),
           ElevatedButton(onPressed: () {}, child: Text("Answer 2")),
